@@ -4,7 +4,7 @@ function Profile() {
   return (
     <section className="flex flex-col items-center p-6 bg-white bg-opacity-10 rounded-lg shadow-lg">
       <img 
-        src={process.env.PUBLIC_URL + "/tenio.jpg"}
+        src="./tenio.jpg"
   alt="Profile"
   className="w-32 h-32 rounded-full mb-4 border-2 border-gradient-accent"
       />
